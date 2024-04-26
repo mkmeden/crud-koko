@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "323733490400",
-    "project_id": "crud-1c25e",
-    "storage_bucket": "crud-1c25e.appspot.com"
+    "project_number": "553029091811",
+    "project_id": "crud-koko",
+    "storage_bucket": "crud-koko.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:323733490400:android:f256217f83d08b55c39e85",
+        "mobilesdk_app_id": "1:553029091811:android:ab2cd3aa8ec6b5f8f760d6",
         "android_client_info": {
-          "package_name": "com.mugen.crud"
+          "package_name": "com.example.crud"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCZC17qqHCD-WMYCs_poAbKFJgok_B2U5k"
+          "current_key": "AIzaSyCuaP-3eDBzWHTh_yz-5q5kGm8X-kNNRvI"
         }
       ],
       "services": {
