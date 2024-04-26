@@ -1,6 +1,7 @@
 import 'package:crud/pages/home.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,9 +22,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Home(),
+    return ScreenUtilInit(
+        designSize: const Size(360, 690),
+      builder: (_ , child) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          home: Home(),
+        );
+      }
     );
   }
 }

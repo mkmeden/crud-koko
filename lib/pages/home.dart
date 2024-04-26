@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:crud/services/firestore.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 
 class Home extends StatefulWidget {
@@ -107,15 +108,15 @@ class _HomeState extends State<Home> {
                       alignment: Alignment.center,
                       child: Card(
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(7.0),
+                          borderRadius: BorderRadius.circular(7.0.r),
                         ),
                         color: Colors.white,
-                        margin: EdgeInsets.symmetric(vertical: 10 , horizontal: 30),
+                        margin: EdgeInsets.symmetric(vertical: 8.h , horizontal: 20.w),
                         child: ListTile(
                           title: Text(noteText,
                           style: TextStyle(
                             color: Colors.grey[700],
-                            fontSize: 20,
+                            fontSize: 15.sp,
                           ),
                           ),
                           trailing: Row(
